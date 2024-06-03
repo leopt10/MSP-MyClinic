@@ -6,7 +6,12 @@ import 'package:http/http.dart' as http;
 import 'ListHistoricConsultPage.dart';
 import 'RegisterExame.dart';
 import 'RegistarAppointment.dart';
-import 'StockManagementPage.dart'; // Import the new Stock Management page
+import 'StockManagementPage.dart';
+import 'StockManagementPage.dart';
+import 'DecongestionSystem.dart';
+import 'PatientPortal.dart';
+import 'EducationalResources.dart';
+
 
 import 'dart:convert';
 
@@ -49,6 +54,8 @@ class CenterPage extends StatelessWidget {
               _buildButton(context, 'Decongestion System', DecongestionSystem()),
               SizedBox(height: 16),
               _buildButton(context, 'Educational Page', EducationalResources()),
+              SizedBox(height: 16),
+              _buildButton(context, 'Patient Portal', PatientPortal()),
               SizedBox(height: 16),
               _buildButton(context, 'Logout', Container(), logout: true),
 

@@ -71,11 +71,9 @@ class _StockManagementPageState extends State<StockManagementPage> {
       _isLoading = true;
     });
 
-    // Here you would typically fetch data from a backend or database
     List<Map<String, dynamic>> stockData = [
       {'item': 'Item 1', 'expiryDate': '2023-12-31', 'currentStock': 8, 'minStock': 5},
       {'item': 'Item 2', 'expiryDate': '2024-01-15', 'currentStock': 2, 'minStock': 3},
-      // Add more items as needed
     ];
 
     setState(() {
