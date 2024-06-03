@@ -51,6 +51,7 @@ class CenterPage extends StatelessWidget {
               _buildButton(context, 'Educational Page', EducationalResources()),
               SizedBox(height: 16),
               _buildButton(context, 'Logout', Container(), logout: true),
+
             ],
           ),
         ),

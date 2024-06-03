@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 class EducationalResources extends StatelessWidget {
   final List<EducationalResource> resources = [
     EducationalResource(

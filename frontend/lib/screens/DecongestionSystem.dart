@@ -11,6 +11,7 @@ class DecongestionSystem extends StatelessWidget {
   Clinic getBestClinic() {
     clinics.sort((a, b) => a.waitTime.compareTo(b.waitTime));
     return clinics.first;
+
   }
 
   @override
