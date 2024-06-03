@@ -2,10 +2,10 @@ import 'package:flutter/material.dart';
 
 class DecongestionSystem extends StatelessWidget {
   final List<Clinic> clinics = [
-    Clinic(name: "Clinic A", location: "Location Lisboa", capacity: 100, occupancy: 80, waitTime: 30),
-    Clinic(name: "Clinic B", location: "Location Mem Martins", capacity: 150, occupancy: 120, waitTime: 20),
-    Clinic(name: "Clinic C", location: "Location Porto", capacity: 200, occupancy: 150, waitTime: 15),
-    Clinic(name: "Clinic D", location: "Location Alcochete", capacity: 50, occupancy: 50, waitTime: 60),
+    Clinic(name: "Clinic A", location: "Lisboa", capacity: 100, occupancy: 80, waitTime: 30),
+    Clinic(name: "Clinic B", location: "Mem Martins", capacity: 150, occupancy: 120, waitTime: 20),
+    Clinic(name: "Clinic C", location: "Porto", capacity: 200, occupancy: 150, waitTime: 15),
+    Clinic(name: "Clinic D", location: "Alcochete", capacity: 50, occupancy: 50, waitTime: 60),
   ];
 
   Clinic getBestClinic() {
